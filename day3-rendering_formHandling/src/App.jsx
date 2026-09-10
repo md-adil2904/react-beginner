@@ -2,28 +2,36 @@ import React, { useState } from 'react'
 
 const App = () => {
 
-  console.log("app rerendering..")
+  let [formData, setFormData] = useState({});
 
-  let [count, setCount] = useState(0);
-  let [user, setUser] = useState({
-    name : 'adil'
-  })
+  const handleChange = (e) => {  
+        let {name, value} = e.target;
+        setFormData({ ...formData, [name]: value })
 
-  
-
-  const handleClick = () => {
-    setCount(count + 1);
   }
-
+  
   return (
-    <div>
-      <h1>count is {count}</h1>
-      <h1>name is {user.name} </h1>
+    <div className='flex flex-col gap-5 w-60 ' >
+      <input 
+      name='name'
+      onChange={handleChange
+      } className='border-2'
+       type="text"
+        placeholder='name' />
 
-      <button onClick={handleClick} >increment</button>
-      <button onClick={() => {
-        user.name = 'tina'
-      }} >change name</button>
+      <input
+      name='email'
+       onChange={handleChange} className='border-2' type="text" placeholder='email' />
+
+      <input 
+      name='password'
+      onChange={handleChange} className='border-2' type="text" placeholder='password' />
+
+      <button className='border-2'>submit</button>
+
+      <h1 className='text-lg'>this is {formData.name}</h1>
+      <h1 className='text-lg'>this is {formData.email}</h1>
+      <h1 className='text-lg'>this is {formData.password}</h1>
     </div>
   )
 }
