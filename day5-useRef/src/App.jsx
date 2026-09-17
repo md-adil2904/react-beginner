@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
-import Form from './Form'
+import Form from './assets/Form';
+
 
 const App = () => {
   const inpRef = useRef();

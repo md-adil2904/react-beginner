@@ -8,4 +8,16 @@
 - state lifting up - parents are used as props to send message between their siblings
 * Props: Parent → Child
 - useRef - A hook, used to fetch real dom element
-- react hook form 
+- # imp react hook form
+ 1.  useForm - contain many things
+   * register
+   * handleSubmit
+   * reset
+   * formState
+
+- DSM - data sharing manager 
+  * context API
+
+- GSM - global state manager
+  * redux
+  * zustand
