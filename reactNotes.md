@@ -16,7 +16,7 @@
    * formState
 
 - DSM - data sharing manager 
-  * context API
+  * context API - just a higher order component
 
 - GSM - global state manager
   * redux
