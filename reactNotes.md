@@ -21,3 +21,9 @@
 - GSM - global state manager
   * redux
   * zustand
+
+- useEffect - use for handling side effects  
+  * component life cycle 
+     1. unmounting phase - creation and render
+     2. updation phase - updation ho rha hai
+     3. mounting phase - render tree se remove hoga
