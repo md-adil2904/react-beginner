@@ -27,3 +27,5 @@
      1. unmounting phase - creation and render
      2. updation phase - updation ho rha hai
      3. mounting phase - render tree se remove hoga
+
+- react router - used in multiple pages navigation without reloading
