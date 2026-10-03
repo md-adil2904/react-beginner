@@ -29,3 +29,9 @@
      3. mounting phase - render tree se remove hoga
 
 - react router - used in multiple pages navigation without reloading
+  1. declarative approach
+  2. data approach
+
+- protected route -> used in authentication
+
+- react-tostify
