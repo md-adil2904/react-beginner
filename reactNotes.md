@@ -8,7 +8,7 @@
 - state lifting up - parents are used as props to send message between their siblings
 * Props: Parent → Child
 - useRef - A hook, used to fetch real dom element
-- # imp react hook form
+- ## imp react hook form
  1.  useForm - contain many things
    * register
    * handleSubmit
@@ -35,3 +35,13 @@
 - protected route -> used in authentication
 
 - react-tostify
+- nanoid - used to generate unique id 
+
+## context api 
+## axios and interceptors
+## Memoization
+- react-memoization - functional component ka refrence store karta hai.
+- useCallback - function ka reference type store karta hai. it contains dependency array . it works same as like useeffect . 
+- useMemo - only use when you need to memoize a expensive calculation result.
+
+## custom hook
