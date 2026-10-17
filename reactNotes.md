@@ -58,3 +58,8 @@
  
 
 - suspense - jab tak page load nhi hoga jab tak pura chij na aa jaye isko data routing ke element par use karte hai
+
+## redux
+
+- store setup using configureState
+- reducer - state + action (it has state and action to update the state)
