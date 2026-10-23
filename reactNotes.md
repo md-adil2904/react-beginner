@@ -63,3 +63,16 @@
 
 - store setup using configureState
 - reducer - state + action (it has state and action to update the state)
+
+## tanstack query
+## 4 layered architecture
+
+## Api works
+* Method :- 
+- GET - getting data from server/ backend
+- POST - sending data to server
+- PATCH/PUT - updating existing data
+- DELETE - database se data delete karna
+
+## redux thunk
+- it is a outer action of redux used for syncing api with redux
