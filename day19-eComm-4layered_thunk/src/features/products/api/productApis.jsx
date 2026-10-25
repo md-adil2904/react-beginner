@@ -1,7 +1,7 @@
 import { api } from "../../../config/api";
 
 export const getAllProductAPi = async (search) => {
-  let url = search ? `/products/search?q=${search}` : "/products?limit=200";
+  let url = search ? `/products/search?q=${search}` : "/products?limit=30";
   try {
     let res = await api.get(url);
     return res.data;
